@@ -1,6 +1,4 @@
-Sure! Below is a `README.md` file for your Signature Converter project:
 
-```markdown
 # Signature Converter
 
 This project is a simple web application built with React that allows users to create and save digital signatures. Users can customize the marker color and width, draw their signature on a canvas, and save the signature as a PNG image.
