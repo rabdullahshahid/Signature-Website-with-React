@@ -97,4 +97,3 @@ signature-converter/
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-Replace `your-username` and `your-email@example.com` with your actual GitHub username and email address. This `README.md` provides an overview of the project, how to get started, usage instructions, and other relevant information.
