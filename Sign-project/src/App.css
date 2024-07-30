@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: semi-bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.signature-canvas {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  backdrop-filter: blur(10px) brightness(90%);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.buttons,
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  backdrop-filter: blur(10px) brightness(90%);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+.alert {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #f5c6cb;
+  background-color: #f8d7da;
+  color: #721c24;
+  border-radius: 10px;
+  backdrop-filter: blur(10px) brightness(90%);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.glass {
+  backdrop-filter: blur(10px) brightness(90%);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.saved-signature {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .signature-canvas {
+    width: 100%;
+    height: auto;
+  }
+
+  button {
+    width: 100%;
+    font-size: 14px;
+  }
+}
